@@ -25,3 +25,5 @@ function BinaryReversal(str) {
   // keep this function call here 
 
   console.log(BinaryReversal('47'));
+
+  //THis solution is not the best way to go, but it was the first one came into my mind.
