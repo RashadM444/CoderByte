@@ -1,3 +1,10 @@
+
+
+let c = document.querySelector('button');
+c.addEventListener("click", ()=>{handleClick()});
+
+
+
 function findDivisors (a) {
     let divisors = [1];
     while(a > 1) {
@@ -45,5 +52,14 @@ if (arr1 > arr2) {
    return result;
 }
 
-console.log(findGCD(120,90));
+function handleClick() {
+    let a = document.getElementById('firstInput').value;
+    let b = document.getElementById('secondInput').value;
+  
+
+    console.log(findGCD(a,b));
+   
+}
+
+// console.log(findGCD(120,90));
 
